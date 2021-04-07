@@ -27,11 +27,10 @@
   width: 80px;
   border-radius: 100%;
   border: 2px solid gray;
-background-color: #eee
-
+  background-color: #eee;
 }
 #green.active {
-    background-color: green
+  background-color: green;
 }
 #yellow {
   height: 80px;
@@ -40,9 +39,8 @@ background-color: #eee
   background-color: #eee;
   border: 2px solid gray;
 }
-#yellow.active{
-    background-color: yellow;
-
+#yellow.active {
+  background-color: yellow;
 }
 #red {
   height: 80px;
@@ -51,8 +49,8 @@ background-color: #eee
   background-color: #eee;
   border: 2px solid gray;
 }
-#red.active{
-    background-color: Red;
+#red.active {
+  background-color: Red;
 }
 .container4 {
   height: 50px;
@@ -62,4 +60,10 @@ background-color: #eee
   top: -103px;
   position: relative;
   border-radius: 10%;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: darkslategray;
 }
